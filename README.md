@@ -2,7 +2,6 @@
 
 Good Icons is a blend of [Material Design Icons](http://fontawesome.io/icons/) and [Font Awesome](http://fontawesome.io/icons/) icons. 
 
-The problem: Font Awesome and Material Icons have different markup. It can be a headache to remember which to use. We want an abstract way to deal with both libraries. 
 
 ## Getting Started
 
@@ -22,8 +21,8 @@ Due to the fundamental differences of Font Awesome and Material Icons it's trick
 The output style follows Font Awesome's conventions in favour of Material Icons. 
 
 
-- All Font Awesome icons should be prefixed with `fa-` (`fa-` will be assumed as default if omitted)
-- All Material icons should be prefixed with `md-` 
+- All Font Awesome icons should be prefixed with `fa-` (`fa-` will be assumed if omitted)
+- All Material icons *must* be prefixed with `md-` 
 - Material icons can be named with a hyphen instead of an underscore (Font Awesome style), if preferred. 
 
 
